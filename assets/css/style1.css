@@ -1,11 +1,31 @@
-/* index.html */
-/* container */
-#main-container{
+
+/* section */
+section{
     font-family:'Georgia', Times, Times New Roman, serif;
     line-height: 2.0;
+    width: 960px;
+    
 }
+
 /* footer */
 .r1{
     height: 5px;
 
+}
+/* iages in portfolio and index */
+img{
+    height: 220px; 
+    width: 270px;
+}
+/* portfoliopicture tags */
+h6{
+    font-size: 10px;
+}
+/* submit button */
+button{
+    font-size: 10px;
+}
+/* container */
+div:container{
+    background: url("../images/triangle-mosaic.jpeg");
 }

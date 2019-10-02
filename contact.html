@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+<!-- header with navbar with links for other pages -->
   <header id="masthead">
     <div class="container">
       <nav class="navbar navbar-expand">
@@ -33,12 +33,12 @@
     
     </div>
   </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1 class="text-info pl-3 pt-4 pb-3">Contact</h1>
-
-      <form id="contact-form">
+<!-- Container with form for name,email, message and submit button -->
+  <div  class="container">
+    <section class="main-section pt-3 pb-3">
+      <h3 class="text-info pl-3 pt-4 pb-1">Contact</h3>
+      <hr>
+      <form id="contact-form" class="pt-3">
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" class="form-control" id="name" name="name" placeholder="John Smith" required>
@@ -51,13 +51,13 @@
           <label for="message">Message</label>
           <textarea id="message" class= "form-control" name="message" required></textarea>
         </div>
-        <button type="submit" class="bg-primary mt-2 p-2 mb-2">Submit</button>
+        <button type="submit" class="bg-info mt-2 p-2 pl-4 pr-4 mb-4 text-white">Submit</button>
       </form>
 
     </section>
 
   </div>
-  
+
 <!-- sticky footer with 2 rows with different dimensions and background color  -->
   <footer class="footer navbar-sticky-bottom">
     
