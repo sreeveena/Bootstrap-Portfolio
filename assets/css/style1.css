@@ -20,12 +20,14 @@ img{
 /* portfoliopicture tags */
 h6{
     font-size: 10px;
+    width: 270px;
+    height:40px;
 }
 /* submit button */
 button{
     font-size: 10px;
 }
 /* container */
-div:container{
+body{
     background: url("../images/triangle-mosaic.jpeg");
 }
