@@ -10,22 +10,23 @@
 
 <body>
 <!-- header with navbar with links for other pages -->
-<div class="page">
-  <div class="links bg-white">
-    <div class="links-block">   
-      <nav class="nav justify-content-end">
-        <ul class="nav">
-          <li class= "nav-item  pr-4 "><a  class= "nav-link text-dark" href="index.html"> About  </a> </li>
-          <li class= "nav-item border border-dark border-top-0 border-bottom-0 pr-4 "><a class= "nav-link text-dark" href="portfolio.html"> Portfolio </a></li>
-          <li class= "nav-item br-6 pr-4 "><a class= "nav-link text-dark" href="contact.html" > Contact </a></li>
-        </ul>
-      </nav>
+<header class="d-flex bg-white">
+  <div class="nav  justify-content-end">
+    <div class="name  bg-info ml-5 p-3 text-center  mr-auto p-3 mt-2">
+      <a href="index.html" id="logo" class="text-white ">Sreeveena</a>
     </div>
-    <div class="name bg-info text-white p-3 text-center ml-5">
-      <b>Sreeveena</b>
+    <div class= "nav-link  ml-5 mt-2">
+       <a href="index.html" class="text-secondary text-center ">About</a>
+    </div> 
+    <div class= "nav-link mt-2">
+      <a href="portfolio.html" class="text-secondary border border-secondary border-top-0 border-bottom-0 text-center pl-3 pr-4 ">Portfolio</a>
     </div>
-  </div>
-</div>
+    <div class= "nav-link  mt-2">
+      <a href="contact.html" class="text-secondary text-center"> Contact</a>
+    </div>
+  </div>  
+</header>
+
 <!-- container with pictures and description with absolute position -->
   <div  class="container mt-5 ml-2">
     <section class="main-section pt-3 pb-3 pr-5 bg-white">
@@ -34,9 +35,9 @@
 
       <div class="row pt-3 pl-3">
         <div class="col-md-5">
-          <img src="assets/images/technics.jpg" alt="Word Guess" class="position:relative">
+          <img src="assets/images/technics.jpg" alt="Word Guess" class="position-relative">
 
-          <h6 class="bg-info position:absolute text-white text-center pt-2 pb-2">Word Guess</h6>
+          <h6 class="bg-info position-absolute text-white text-center pt-2 pb-2">Word Guess</h6>
         </div>
         <div class="col-md-5">
           <img src="assets/images/technics5.jpg" alt="Trivia Game" class="position:relative">
@@ -56,11 +57,11 @@
           <h6 class="bg-info position:absolute text-white text-center pt-2 pb-2">Rutgers Info Widget</h6>
         </div>
       </div>
-      <div class="row pl-3">
+      <div class="row pl-3 mb-5">
         <div class="col-md-5">
-          <img src="assets/images/technics9.jpg" alt="Rock Paper Scissors" class="position:relative pt-4">
+          <img src="assets/images/technics9.jpg" alt="Rock Paper Scissors" class=" position position-relative pt-4">
 
-          <h6 class="bg-info position:absolute text-white text-center pt-2 pb-2"> Rock Paper Scissors</h6>
+          <h6 class="bg-info position position-absolute text-white text-center pt-2 pb-2"> Rock Paper Scissors</h6>
         </div>
         </div>
 
@@ -68,7 +69,7 @@
 
   </div>
 <!-- sticky footer with 2 rows with different dimensions and background color  -->
-  <footer class="footer navbar-sticky-bottom mt-5">
+  <footer class="footer sticky-bottom mt-5">
     
     <div class="row" style="height: 5px;">
       <div class="col-md-12 bg-info">
