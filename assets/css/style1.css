@@ -1,10 +1,10 @@
 
 /* section */
-section{
+.main-section{
     font-family:'Georgia', Times, Times New Roman, serif;
     line-height: 2.0;
     width: 960px;
-    
+
 }
 
 /* footer */
